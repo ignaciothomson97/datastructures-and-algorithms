@@ -1,14 +1,10 @@
 package cl.datastructuresandalgorithms.twosum;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.List;
 
 public class TwoSum {
-
     public static void twoSum(int[] nums, int target) {
-
         // Enfoque de  brute force, O(N^2)
         int[] indexes = new int[2];
         for (int i = 0; i < nums.length; i++) {

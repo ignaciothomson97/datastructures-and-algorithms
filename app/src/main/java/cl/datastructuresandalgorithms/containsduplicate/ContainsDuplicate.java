@@ -6,9 +6,7 @@ import java.util.Map;
 import java.util.Set;
 
 public class ContainsDuplicate {
-    public static void containsDuplicate() {
-        int[] numbers = new int[]{1, 3, 5, 3, 7, 12, 9};
-
+    public static void containsDuplicate(int[] numbers) {
         // Tiempo cuadratico, doble iteracion sobre el mismo array (O^2)
         for (int i = 0; i < numbers.length; i++) {
             for (int j = i + 1; j < numbers.length; j++) {

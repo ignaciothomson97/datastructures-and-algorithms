@@ -1,10 +1,8 @@
 package cl.datastructuresandalgorithms;
 
-import cl.datastructuresandalgorithms.anagramgroup.AnagramGroup;
-import cl.datastructuresandalgorithms.containsduplicate.ContainsDuplicate;
-import cl.datastructuresandalgorithms.twosum.TwoSum;
-import cl.datastructuresandalgorithms.validanagram.ValidAnagram;
-import cl.datastructuresandalgorithms.validpalindrome.ValidPalindrome;
+import cl.datastructuresandalgorithms.*;
+
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,6 +10,11 @@ public class Main {
         //ValidAnagram.validAnagram("bat", "tab");
         //TwoSum.twoSum(new int[]{2, 7, 11, 15}, 9);
         //AnagramGroup.anagramGroup(new String[]{"eat", "tea", "tan", "ate", "nat", "bat"});
-        //ValidPalindrome.validPalindrome("amanaplanacanalpanamap");
+        //ValidPalindrome.validPalindrome("A man, a plan, a canal: Panama");
+        //MoveZeroes.moveZeroes(new int[]{0, 1, 0, 3, 12});
+        //RemoveDuplicates.removeDuplicates(new int[]{1, 1, 1, 2, 2, 2, 3, 3, 3, 4});
+
+        // Extras
+        //ReverseArray.reverseArray(new String[]{"Hello", "There", "Strange", "Beautiful", "World"});
     }
 }

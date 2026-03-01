@@ -1,6 +1,7 @@
 package cl.datastructuresandalgorithms;
 
 import cl.datastructuresandalgorithms.*;
+import cl.datastructuresandalgorithms.extras.ArrayIntersection;
 import cl.datastructuresandalgorithms.extras.FirstNonRepeatedCharacter;
 
 import java.util.Arrays;
@@ -17,6 +18,7 @@ public class Main {
 
         // Extras
         //ReverseArray.reverseArray(new String[]{"Hello", "There", "Strange", "Beautiful", "World"});
-        FirstNonRepeatedCharacter.firstNonRepeatedCharacter();
+        //FirstNonRepeatedCharacter.firstNonRepeatedCharacter("leetcoder");
+        //ArrayIntersection.arrayIntersection(new int[]{4, 5, 9}, new int[]{4, 4, 8, 9, 9});
     }
 }

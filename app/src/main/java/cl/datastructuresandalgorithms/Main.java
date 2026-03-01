@@ -1,6 +1,7 @@
 package cl.datastructuresandalgorithms;
 
 import cl.datastructuresandalgorithms.*;
+import cl.datastructuresandalgorithms.extras.FirstNonRepeatedCharacter;
 
 import java.util.Arrays;
 
@@ -16,5 +17,6 @@ public class Main {
 
         // Extras
         //ReverseArray.reverseArray(new String[]{"Hello", "There", "Strange", "Beautiful", "World"});
+        FirstNonRepeatedCharacter.firstNonRepeatedCharacter();
     }
 }

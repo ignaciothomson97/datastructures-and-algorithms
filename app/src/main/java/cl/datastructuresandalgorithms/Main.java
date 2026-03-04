@@ -5,6 +5,7 @@ import cl.datastructuresandalgorithms.extras.ArrayIntersection;
 import cl.datastructuresandalgorithms.extras.FirstNonRepeatedCharacter;
 import cl.datastructuresandalgorithms.extras.ReverseVowels;
 import cl.datastructuresandalgorithms.extras.SortedSquaredArray;
+import cl.datastructuresandalgorithms.longestcommonprefix.LongestCommonPrefix;
 import cl.datastructuresandalgorithms.romantointeger.RomanToInteger;
 
 import java.util.Arrays;
@@ -19,8 +20,9 @@ public class Main {
         ValidPalindrome.validPalindrome("A man, a plan, a canal: Panama");
         MoveZeroes.moveZeroes(new int[]{0, 1, 0, 3, 12});
         RemoveDuplicates.removeDuplicates(new int[]{1, 1, 1, 2, 2, 2, 3, 3, 3, 4});
-        */
         RomanToInteger.romanToInteger("MCMXCIV");
+        */
+        LongestCommonPrefix.longestCommonPrefix(new String[]{"flower","flow","flight"});
         /*
          Extras
         ReverseArray.reverseArray(new String[]{"Hello", "There", "Strange", "Beautiful", "World"});

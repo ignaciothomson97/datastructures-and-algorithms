@@ -1,6 +1,7 @@
 package cl.datastructuresandalgorithms;
 
 import cl.datastructuresandalgorithms.*;
+import cl.datastructuresandalgorithms.ValidParenthesis.ValidParenthesis;
 import cl.datastructuresandalgorithms.extras.ArrayIntersection;
 import cl.datastructuresandalgorithms.extras.FirstNonRepeatedCharacter;
 import cl.datastructuresandalgorithms.extras.ReverseVowels;
@@ -21,8 +22,10 @@ public class Main {
         MoveZeroes.moveZeroes(new int[]{0, 1, 0, 3, 12});
         RemoveDuplicates.removeDuplicates(new int[]{1, 1, 1, 2, 2, 2, 3, 3, 3, 4});
         RomanToInteger.romanToInteger("MCMXCIV");
-        */
         LongestCommonPrefix.longestCommonPrefix(new String[]{"flower","flow","flight"});
+        ValidParenthesis.validParenthesis("([)]");
+        */
+
         /*
          Extras
         ReverseArray.reverseArray(new String[]{"Hello", "There", "Strange", "Beautiful", "World"});

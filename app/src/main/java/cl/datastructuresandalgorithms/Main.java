@@ -1,15 +1,6 @@
 package cl.datastructuresandalgorithms;
 
-import cl.datastructuresandalgorithms.*;
-import cl.datastructuresandalgorithms.ValidParenthesis.ValidParenthesis;
-import cl.datastructuresandalgorithms.extras.ArrayIntersection;
-import cl.datastructuresandalgorithms.extras.FirstNonRepeatedCharacter;
-import cl.datastructuresandalgorithms.extras.ReverseVowels;
-import cl.datastructuresandalgorithms.extras.SortedSquaredArray;
-import cl.datastructuresandalgorithms.longestcommonprefix.LongestCommonPrefix;
-import cl.datastructuresandalgorithms.romantointeger.RomanToInteger;
-
-import java.util.Arrays;
+import cl.datastructuresandalgorithms.searchinsertposition.SearchInsertPosition;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,7 +15,10 @@ public class Main {
         RomanToInteger.romanToInteger("MCMXCIV");
         LongestCommonPrefix.longestCommonPrefix(new String[]{"flower","flow","flight"});
         ValidParenthesis.validParenthesis("([)]");
+        StringFirstIndexOcurrence.stringFirstIndexOcurrence("sadbutsad", "sad");
         */
+
+        System.out.println(SearchInsertPosition.searchInsertPosition(new int[]{1, 3, 5, 9}, 7));
 
         /*
          Extras

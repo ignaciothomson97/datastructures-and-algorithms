@@ -1,5 +1,6 @@
 package cl.datastructuresandalgorithms;
 
+import cl.datastructuresandalgorithms.lengthoflastword.LengthOfLastWord;
 import cl.datastructuresandalgorithms.searchinsertposition.SearchInsertPosition;
 
 public class Main {
@@ -16,9 +17,9 @@ public class Main {
         LongestCommonPrefix.longestCommonPrefix(new String[]{"flower","flow","flight"});
         ValidParenthesis.validParenthesis("([)]");
         StringFirstIndexOcurrence.stringFirstIndexOcurrence("sadbutsad", "sad");
+        SearchInsertPosition.searchInsertPosition(new int[]{1, 3, 5, 9}, 7);
+        LengthOfLastWord.lengthOfLastWord("Hello World");
         */
-
-        System.out.println(SearchInsertPosition.searchInsertPosition(new int[]{1, 3, 5, 9}, 7));
 
         /*
          Extras

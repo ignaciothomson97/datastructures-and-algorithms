@@ -1,5 +1,6 @@
 package cl.datastructuresandalgorithms;
 
+import cl.datastructuresandalgorithms.addbinary.AddBinary;
 import cl.datastructuresandalgorithms.lengthoflastword.LengthOfLastWord;
 import cl.datastructuresandalgorithms.plusone.PlusOne;
 import cl.datastructuresandalgorithms.searchinsertposition.SearchInsertPosition;
@@ -23,6 +24,7 @@ public class Main {
         SearchInsertPosition.searchInsertPosition(new int[]{1, 3, 5, 9}, 7);
         LengthOfLastWord.lengthOfLastWord("Hello World");
         PlusOne.plusOne(new int[]{9, 8, 7, 6, 5, 4, 3, 2, 1, 0});
+        AddBinary.addBinary("11", "1");
         */
 
         /*

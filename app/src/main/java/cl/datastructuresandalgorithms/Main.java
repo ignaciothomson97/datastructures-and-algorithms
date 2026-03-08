@@ -1,7 +1,10 @@
 package cl.datastructuresandalgorithms;
 
 import cl.datastructuresandalgorithms.lengthoflastword.LengthOfLastWord;
+import cl.datastructuresandalgorithms.plusone.PlusOne;
 import cl.datastructuresandalgorithms.searchinsertposition.SearchInsertPosition;
+
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
@@ -19,6 +22,7 @@ public class Main {
         StringFirstIndexOcurrence.stringFirstIndexOcurrence("sadbutsad", "sad");
         SearchInsertPosition.searchInsertPosition(new int[]{1, 3, 5, 9}, 7);
         LengthOfLastWord.lengthOfLastWord("Hello World");
+        PlusOne.plusOne(new int[]{9, 8, 7, 6, 5, 4, 3, 2, 1, 0});
         */
 
         /*
